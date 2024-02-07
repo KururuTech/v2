@@ -1,0 +1,142 @@
+:root
+
+body {
+    --fonte-animada: Honk;
+    --fonte-padrao: Roboto Slab;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #a1a1a1bd;
+    --fonte: Anton;
+    --fonn: Protest Riot;
+}
+
+header {
+            background: url('https://i.giphy.com/l41YvpiA9uMWw5AMU.webp') 
+            center center/cover no-repeat;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-family: var(--fonte-animada);
+    }
+nav {
+    background-color: #1c2b90;
+    color: #fff;
+    padding: 10px;
+    font-family: var(--fonte-padrao);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    font-family: var(--fonte-padrao);
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+}
+
+section {
+    padding: 20px;
+}
+
+/* Adicione estas regras no final do seu arquivo CSS existente */
+
+#servicos {
+    padding: 20px;
+    font-family: var(--fonte-padrao);
+}
+
+.section-title {
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    color: #ffffff;
+    font-family: var(--fonte-padrao);
+}
+
+.service p {
+    color:rgb(227, 220, 249);
+}
+
+.contact-us {
+    text-align: center;
+    font-style: italic;
+    font-family: var(--fonte-padrao);
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+Image{
+
+width: auto;
+margin-top: auto;
+
+}
+
+#computadores img {
+    width: 280px;
+    height: 300px;
+    margin: 10px; 
+}
+
+.contato {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-family: var(--fonte-padrao);
+    background-image: url(images/OIP.jpg);
+}
+
+.subtitulo{
+    font-family: var(--fonte-padrao);
+}
+
+.servicos{
+    background-image: url(images/work.jpg);
+    background-repeat: repeat;
+    font-family: var(--fonte);
+    color: var(black);
+}   
+
+.fundo1{
+    background-image: url(images/fundo1.jpg);
+}
+
+.tituloal{
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+}
