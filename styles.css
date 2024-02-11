@@ -98,17 +98,32 @@ footer {
 }
 
 
-Image{
 
-width: auto;
-margin-top: auto;
+.margemid {
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    align-items: center;
+    padding: auto;
+
 
 }
 
+.containertestes{
+
+        height: auto;
+        margin: auto;
+        margin-top: auto;
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        align-items: baseline;
+}
+
 #computadores img {
-    width: 280px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     margin: 10px; 
+
 }
 
 .contato {
